@@ -10,6 +10,11 @@ namespace clothbazaar.Database
 {
   public class CbContext  : DbContext
     {
+
+        public CbContext() : base ("clothbzrconnections")
+        {
+
+        }
         public DbSet <product> products{ get; set; }
         public DbSet<catregry> catregries { get; set; }
 
