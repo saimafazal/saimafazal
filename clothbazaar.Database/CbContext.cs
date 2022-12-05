@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace clothbazaar.Database
 {
-  public class CbContext  : DbContext
+  public class CbContext  : DbContext ,IDisposable
     {
 
         public CbContext() : base ("clothbzrconnections")
         {
 
         }
-        public DbSet <product> products{ get; set; }
-        public DbSet<catregry> catregries { get; set; }
+        public DbSet <Product> Products{ get; set; }
+        public DbSet<Catregry> Categories { get; set; }
 
 
     }

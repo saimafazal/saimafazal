@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace cloothbazaar.entities
 {
-  public   class product : baseentity
+  public   class Product : baseentity
     {
 
-        public catregry catregry { get; set; }
+        public Catregry catregry { get; set; }
 
         public decimal price  { get; set; }
 

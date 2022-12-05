@@ -1,4 +1,4 @@
-﻿namespace clothbazaar.Database.Migrations
+namespace clothbazaar.Database.Migrations
 {
     using System;
     using System.Data.Entity;
